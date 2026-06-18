@@ -111,7 +111,7 @@ def plot_eigen_direction():
             scale=1,
             color="green",
             width=0.05,
-            label=f"固有ベクトル v{i+1}",
+            label=f"固有ベクトル v{i + 1}",
         )
         ax.quiver(
             0,
@@ -123,7 +123,7 @@ def plot_eigen_direction():
             scale=1,
             color="purple",
             width=0.05,
-            label=f"変換後 λv{i+1}",
+            label=f"変換後 λv{i + 1}",
             alpha=0.7,
         )
 
